@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCliControlPanel.App", "src\AzureCliControlPanel.App\AzureCliControlPanel.App.csproj", "{C0AFA5CD-9A60-45C0-A1BC-3226CBA433BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCliControlPanel.Core", "src\AzureCliControlPanel.Core\AzureCliControlPanel.Core.csproj", "{8548B0DF-CED4-4E98-855E-A34DB4B77BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCliControlPanel.Tests", "tests\AzureCliControlPanel.Tests\AzureCliControlPanel.Tests.csproj", "{828F05BE-03C6-4DA3-8B43-85DA4810B777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0AFA5CD-9A60-45C0-A1BC-3226CBA433BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AFA5CD-9A60-45C0-A1BC-3226CBA433BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AFA5CD-9A60-45C0-A1BC-3226CBA433BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AFA5CD-9A60-45C0-A1BC-3226CBA433BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8548B0DF-CED4-4E98-855E-A34DB4B77BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8548B0DF-CED4-4E98-855E-A34DB4B77BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8548B0DF-CED4-4E98-855E-A34DB4B77BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8548B0DF-CED4-4E98-855E-A34DB4B77BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828F05BE-03C6-4DA3-8B43-85DA4810B777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828F05BE-03C6-4DA3-8B43-85DA4810B777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828F05BE-03C6-4DA3-8B43-85DA4810B777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828F05BE-03C6-4DA3-8B43-85DA4810B777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

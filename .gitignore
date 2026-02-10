@@ -1,0 +1,130 @@
+###############################################################################
+# .NET / Visual Studio
+###############################################################################
+
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio user-specific files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.rsuser
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+###############################################################################
+# .NET tooling
+###############################################################################
+
+# Test results
+TestResults/
+*.trx
+coverage/
+coverage.cobertura.xml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# dotnet tool restore cache
+.dotnet/
+
+###############################################################################
+# Windows / OS noise
+###############################################################################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+
+*.lnk
+
+###############################################################################
+# Logs & diagnostics
+###############################################################################
+
+*.log
+*.logs
+logs/
+log/
+
+# App-generated diagnostics
+**/LogFiles/
+**/App_Data/
+
+###############################################################################
+# Azure CLI / Azure tooling
+###############################################################################
+
+# Azure CLI local state (NEVER commit)
+.azure/
+.azureDevOps/
+
+# Azure Static Web Apps local artifacts
+.azure-static-web-apps/
+
+# ARM / Terraform scratch
+*.tfstate
+*.tfstate.*
+*.terraform/
+.terraform.lock.hcl
+
+###############################################################################
+# Environment / secrets
+###############################################################################
+
+# Local env files
+.env
+.env.*
+*.secrets.json
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+###############################################################################
+# Packaging / distribution
+###############################################################################
+
+# Zip / publish outputs
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+publish/
+dist/
+
+###############################################################################
+# Editor / misc
+###############################################################################
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+###############################################################################
+# Explicit allow-list (safety)
+###############################################################################
+
+!.gitignore
+!README.md
+!Directory.Build.props
